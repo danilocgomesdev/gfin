@@ -12,6 +12,6 @@ public class Teste {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response teste(){
-        return Response.ok("{ok}").build();
+        return Response.ok("OK").build();
     }
 }
